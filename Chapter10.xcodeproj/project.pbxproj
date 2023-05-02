@@ -12,6 +12,7 @@
 		E4D95DDC29EC8D6D004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DDB29EC8D6D004659EC /* ContentView.swift */; };
 		E4D95DDE29EC8D6F004659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95DDD29EC8D6F004659EC /* Assets.xcassets */; };
 		E4D95DE129EC8D6F004659EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D95DE029EC8D6F004659EC /* Preview Assets.xcassets */; };
+		EDC039852A01B022002F8D83 /* ChapterTenWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC039842A01B022002F8D83 /* ChapterTenWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E4D95DDB29EC8D6D004659EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4D95DDD29EC8D6F004659EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D95DE029EC8D6F004659EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDC039842A01B022002F8D83 /* ChapterTenWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTenWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				E4D95DD829EC8D6D004659EC /* Chapter10 */,
+				EDC039842A01B022002F8D83 /* ChapterTenWork.swift */,
 				E4D95DD729EC8D6D004659EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC039852A01B022002F8D83 /* ChapterTenWork.swift in Sources */,
 				E4D95DDC29EC8D6D004659EC /* ContentView.swift in Sources */,
 				E4145A7A29EE2C7300D15766 /* DemoView.swift in Sources */,
 				E4D95DDA29EC8D6D004659EC /* Chapter10App.swift in Sources */,

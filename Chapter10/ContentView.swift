@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        TabView{
             DemoView()
+                .tabItem{
+                    Image(systemName: "1.circle")
+                    Text("Demo View")
+                }
+            ChapterTenWork()
+                .tabItem{
+                    Image(systemName: "2.circle")
+                    Text("Class Work")
+                }
+        }
     }
 }
 
