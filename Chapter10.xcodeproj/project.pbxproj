@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C604E552A01C6D400AF0BF1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C604E542A01C6D400AF0BF1 /* File.swift */; };
 		E4145A7A29EE2C7300D15766 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4145A7929EE2C7300D15766 /* DemoView.swift */; };
 		E4D95DDA29EC8D6D004659EC /* Chapter10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DD929EC8D6D004659EC /* Chapter10App.swift */; };
 		E4D95DDC29EC8D6D004659EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95DDB29EC8D6D004659EC /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C604E542A01C6D400AF0BF1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E4145A7929EE2C7300D15766 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		E4D95DD629EC8D6D004659EC /* Chapter10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D95DD929EC8D6D004659EC /* Chapter10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10App.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				E4D95DD929EC8D6D004659EC /* Chapter10App.swift */,
 				E4D95DDB29EC8D6D004659EC /* ContentView.swift */,
+				2C604E542A01C6D400AF0BF1 /* File.swift */,
 				E4D95DDD29EC8D6F004659EC /* Assets.xcassets */,
 				E4D95DDF29EC8D6F004659EC /* Preview Content */,
 				E4145A7929EE2C7300D15766 /* DemoView.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D95DDC29EC8D6D004659EC /* ContentView.swift in Sources */,
+				2C604E552A01C6D400AF0BF1 /* File.swift in Sources */,
 				E4145A7A29EE2C7300D15766 /* DemoView.swift in Sources */,
 				E4D95DDA29EC8D6D004659EC /* Chapter10App.swift in Sources */,
 			);
