@@ -17,6 +17,8 @@ struct ActivityView: View {
                 Link(destination: URL(string: "https://gitlab.com/cascadia-college/mobas/suite-career-ios")! ) {
                     Text("Click here to go to GitLab")
                         .underline()
+                        .padding()
+                        .background(Color.gray.opacity(0.5))
                 }
             }
             VStack{
@@ -31,12 +33,16 @@ struct ActivityView: View {
                     Button("Find", action: findFile)
                     Button("Print", action: printFile)
                 }
+                .padding()
+                .padding(.horizontal)
+                .background(Capsule()
+                    .fill(Color.gray.opacity(0.5)))
+                .foregroundColor(.black)
                 TextEditor(text: $text)
                     .foregroundColor(.secondary)
                     .padding(.horizontal)
 
             }
-            .background(Color("AccentColor"))
         }
     }
     
